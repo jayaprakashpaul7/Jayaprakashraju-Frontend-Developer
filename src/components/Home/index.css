@@ -1,0 +1,103 @@
+.bg {
+  background-color: #00161d;
+  display: flex;
+  flex-direction: column;
+  height: 100;
+  gap: 44px;
+  padding: 20px;
+  opacity: 0px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Space Grotesk;
+  color: white;
+
+  letter-spacing: var(--letterspacing-072);
+}
+.content-desktop {
+  display: none;
+}
+@media (min-width: 768px) {
+  .content {
+    display: none;
+  }
+  .content-desktop {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    font-family: Space Grotesk;
+    color: white;
+    background-image: url('https://res.cloudinary.com/student7/image/upload/e_gen_remove:prompt_(1);multiple_true/v1729071172/image_j26boe.png');
+  }
+}
+
+.page-quote {
+  font-size: 35.86px;
+  font-weight: 300;
+  line-height: 43px;
+  text-align: center;
+  width: 175px;
+  height: 129px;
+  margin-bottom: 20px;
+  gap: 0px;
+  opacity: 0px;
+}
+@media (min-width: 768px) {
+  .page-quote {
+    width: 300px;
+    margin-bottom: 1px;
+  }
+}
+.innovation {
+  background-color: #b0f9ff;
+  width: Hug (203px) px;
+  color: #0b2a2d;
+  height: Hug (44px) px;
+  padding: 2px 14px 2px 14px;
+  font-weight: 200;
+  font-size: 24px;
+  gap: 0px;
+  border-radius: 56px;
+  opacity: 0px;
+}
+.para {
+  color: #b0faffb2;
+  line-height: 25px;
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: 100;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+@media (min-width: 768px) {
+  .para {
+    width: 100;
+  }
+  br {
+    display: none;
+  }
+}
+
+.dapp-btn {
+  outline: none;
+  background-color: white;
+  color: #0b2a2d;
+  font-size: 20px;
+  border: none;
+  border-radius: 15px;
+  height: 44px;
+  width: 131px;
+  background-color: #b0f9ff;
+  font-weight: 500;
+  font-family: serif;
+  margin-top: 20px;
+}
+.ul-m {
+  display: none;
+}

@@ -1,0 +1,39 @@
+.explore-bg {
+  background-color: #011c24;
+  box-shadow: 0px 0px 32px 16px #63f2ff1a inset;
+  padding: 20px;
+  border-radius: 9px;
+  display: flex;
+  margin-bottom: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 300;
+  font-family: 'Roboto';
+}
+@media (min-width: 768px) {
+  .explore-bg {
+    width: 700px;
+  }
+}
+.e-bg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.e-h {
+  font-weight: 300;
+}
+.e-para {
+  text-align: center;
+}
+.e-span {
+  background-color: #011c24;
+  color: rgba(98, 240, 254, 1);
+  font-weight: 300;
+  padding: 0px;
+}
+button {
+  cursor: pointer;
+}
